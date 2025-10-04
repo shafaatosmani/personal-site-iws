@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <title>My Hobbies Website</title>
 </head>
-<body>
+<body id="home">
   <!-- navigation list -->
   <nav>
     <a href="motorcycles.html">Motorcycles</a> |
@@ -13,7 +14,13 @@
 
   <!-- page -->
   <h1>Welcome</h1>
-  <p>Placeholder for the MAIN page.</p>
-  <img src="images/me.jpg" alt="Placeholder image">
+  <p>Hover over the images to learn more.</p>
+  <div class="img-container">
+    <img src="images/me.jpg" alt="Placeholder image" onmouseover="showText('TEXT')" onmouseout="resetText()">
+  </div>
+
+  <div id="hover-text-box"></div>
+
+  <script src="script.js"></script>
 </body>
 </html>
