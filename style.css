@@ -15,10 +15,16 @@ body#home {
   background-size: cover;
 }
 body#moto {
-   background: linear-gradient(to bottom right, #2c3e50, #d62424);
+  background: linear-gradient(to bottom right, #2c3e50, #d62424);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 body#pl {
   background: linear-gradient(to bottom right, #3eec4c, #717477);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 nav {
