@@ -12,14 +12,22 @@
     <a href="powerlifting.html">Powerlifting</a> |
   </nav>
 
+  <main>
   <!-- page -->
-  <h1>Motorcycles</h1>
-  <p>Placeholder for the MOTO page..</p>
-  <div class="img-container">
-    <img src="images/bike.jpg" alt="Placeholder image" onmouseover="showText('TEXT')" onmouseout="resetText()">
-  </div>
+    <h1>My Motorcycle Journey</h1>
+    <h2>Hover over each image to learn more about my Yamaha R3!</h2>
+    <div id="hover-text-box">*Info will appear here*</div>
+    <div class="img-container">
+      <img height=420px src="images/bike.jpg" alt="Yamaha R3 day 1" onmouseover="showText('This is from the day I first got the bike. It is a 2024 Yamaha R3 and I bought it secondhand from Facebook Marketplace. The color scheme is one of the rarer ones available.')" onmouseout="resetText()">
+      <img src="images/exhaust.jpg" alt="Yamaha R3 exhaust" onmouseover="showText('Recently, I installed an SC Project slip on exhaust. The exhaust has made the bike sound louder and also provides satisfying pops upon decelleration. Overall, it was worth it for only $130!')" onmouseout="resetText()">
+      <img src="images/scene.jpg" alt="Yamaha R3 scenic" onmouseover="showText('Scenic routes are my favorite to take while riding my bike.')" onmouseout="resetText()">
+      <img src="images/duo.jpg" alt="Yamaha R3 + Suzuki GSX-750S" onmouseover="showText('I often ride with my uncle who rides a Suzuki GSX-750S. His bike is the black one behind mine.')" onmouseout="resetText()">
+    </div>
+  </main>
 
-  <div id="hover-text-box"></div>
+  <footer>
+    <p>&copy; 2025 Shafaat Osmani. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

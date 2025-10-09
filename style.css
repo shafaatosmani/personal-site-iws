@@ -1,18 +1,24 @@
-body {
+html, body {
   margin: 0;
-  font-family: Arial, sans-serif;
-  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
   line-height: 1.6;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 body#home {
-  background: linear-gradient(to bottom right, #f8ffae, #43c6ac);
+  background: linear-gradient(to bottom right, #3d0939, #43c6ac);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 body#moto {
-   background: linear-gradient(to bottom right, #2c3e50, #4ca1af);
+   background: linear-gradient(to bottom right, #2c3e50, #d62424);
 }
 body#pl {
-  background: linear-gradient(to bottom right, #232526, #414345);
+  background: linear-gradient(to bottom right, #3eec4c, #717477);
 }
 
 nav {
@@ -33,7 +39,7 @@ nav a:hover {
   color: red;
 }
 
-h1, p {
+h1, h2 {
   text-align: center;
   margin-top: 20px;
 }
@@ -52,7 +58,16 @@ img:hover {
 }
 
 .img-container img {
-  width: 100%;
+  border-radius: 8px;
+  transition: transform 0.3s;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+  flex-wrap: wrap;
   margin-top: 20px;
 }
 

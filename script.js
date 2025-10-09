@@ -3,5 +3,5 @@ function showText(message) {
 }
 
 function resetText() {
-  document.getElementById("hover-text-box").innerText = "";
+  document.getElementById("hover-text-box").innerText = "*Info will appear here*";
 }

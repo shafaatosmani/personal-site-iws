@@ -12,14 +12,21 @@
     <a href="motorcycles.html">Motorcycles</a> |
   </nav>
 
+  <main>
   <!-- page -->
-  <h1>Powerlifting</h1>
-  <p>Placeholder for the PL page.</p>
-  <div class="img-container">
-    <img src="images/pl.jpg" alt="Placeholder image" onmouseover="showText('TEXT')" onmouseout="resetText()">
-  </div>
+    <h1>My Competitive Powerlifting Journey</h1>
+    <h2>Hover over the images to learn more!</h2>
+    <div id="hover-text-box"></div>
+    <div class="img-container">
+      <img src="images/pl.jpg" alt="Me + Coach" onmouseover="showText('This is a picture of me and my coach Bryan. He has been a crucial mentor in my powerlifting journey.')" onmouseout="resetText()">
+      <img src="images/deadlift.jpg" alt="Deadlift" onmouseover="showText('This was the lift that won me my medal at my second competition (2024 Odyssey Barbell Summer Open). Deadlift is my specialty however this lift was stil very challenging for me. Nonetheless I was able to pull the weight!')" onmouseout="resetText()">
+      <img src="images/medal.jpg" alt="Medals" onmouseover="showText('I currently hold two medals in powerlifting. The black one is for the Odyssey Barbell Summer Open and the other is for the Massachusetts State Championship.')" onmouseout="resetText()">
+    </div>
+  </main>
 
-  <div id="hover-text-box"></div>
+  <footer>
+    <p>&copy; 2025 Shafaat Osmani. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>

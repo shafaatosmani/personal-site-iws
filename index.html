@@ -6,20 +6,29 @@
   <title>My Hobbies Website</title>
 </head>
 <body id="home">
+  <header>
   <!-- navigation list -->
-  <nav>
-    <a href="motorcycles.html">Motorcycles</a> |
-    <a href="powerlifting.html">Powerlifting</a> |
-  </nav>
+    <nav>
+      <a href="motorcycles.html">Motorcycles</a> |
+      <a href="powerlifting.html">Powerlifting</a> |
+    </nav>
+  </header>
 
+  <main>
   <!-- page -->
-  <h1>Welcome</h1>
-  <p>Hover over the images to learn more.</p>
-  <div class="img-container">
-    <img src="images/me.jpg" alt="Placeholder image" onmouseover="showText('TEXT')" onmouseout="resetText()">
-  </div>
+    <h1>Welcome to my Hobbies Website!</h1>
+    <h2>Hover over the images to learn more about me.</h2>
+    <div id="hover-text-box">*Info will appear here*</div>
+    <div class="img-container">
+      <img src="images/me.jpg" alt="Placeholder image" onmouseover="showText('This is a photo of me. It is also my LinkedIn profile picture!')" onmouseout="resetText()">
+      <img src="images/uml.jpg" alt="Placeholder image" onmouseover="showText('I am currently in my last semester of my Masters degree in Computer Science at UMass Lowell. I graduated my bachelors, also in Computer Science, in May of 2024.')" onmouseout="resetText()">
+      <img src="images/Fidelity.jpg" alt="Placeholder image" onmouseover="showText('I currently work as a Software Engineer at Fidelity Investments, in the Asset Management Technology division.')" onmouseout="resetText()">
+    </div>
+  </main>
 
-  <div id="hover-text-box"></div>
+  <footer>
+    <p>&copy; 2025 Shafaat Osmani. All rights reserved.</p>
+  </footer>
 
   <script src="script.js"></script>
 </body>
